@@ -325,6 +325,21 @@ textarea { min-height: 120px; resize: vertical; }
   transform: translateY(-50%);
   pointer-events: none;
 }
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn.delete {
+  background: #ea5555;
+  color: #fff;
+}
+
+.btn.delete:hover {
+  background: #ff6b6b;
+}
 
 /* ------------ Utilities ------------ */
 .hidden { display: none !important; }
