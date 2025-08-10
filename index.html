@@ -105,6 +105,25 @@
           </select>
           <span class="chevron">▾</span>
         </div>
+        <!-- Priority -->
+<div class="field">
+  <label class="label" for="task-priority">Priority</label>
+  <div class="select-wrapper">
+    <select id="task-priority" name="priority">
+      <option value="low">low</option>
+      <option value="medium">medium</option>
+      <option value="high">high</option>
+    </select>
+    <span class="chevron">⌄</span>
+  </div>
+</div>
+
+<!-- Buttons -->
+<div class="modal-actions">
+  <button type="submit" class="btn primary">Save Changes</button>
+  <button type="button" class="btn delete">Delete Task</button>
+</div>
+
       </label>
 
       <button class="btn primary block" type="submit" id="createTaskBtn">Create Task</button>
